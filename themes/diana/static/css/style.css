@@ -1,0 +1,61 @@
+html {
+    background-color: whitesmoke
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+h1 h2 h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.header {
+    display: flex;
+    border-bottom: 2px black solid;
+}
+
+h1 {
+    margin: 0;
+    font-size: 60pt;
+    text-align: left;
+}
+
+h2 {
+    font-size: 30pt;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    padding: 0;
+    padding-right: 30px;
+    margin-right: auto;
+}
+
+.header li:not(:last-child):not(:first-child):not(.title) {
+    margin-right: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid whitesmoke;
+}
+
+h2:hover {
+    border-bottom: 2px solid black;
+}
+
+.content {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16pt;
+    display: flex;
+}
+
+.content > .left-text {
+    margin-right: auto;
+    margin-right: 40px;
+}
